@@ -26,7 +26,7 @@ nav {
     justify-content: space-between;
     padding: 20px;
     color: white;
-
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 ol {
@@ -48,14 +48,18 @@ main {
     border-style: none;
     background-color: rgb(134, 10, 250);
     margin-top: 30px;
-    height: 400px;
+    height: 125vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 
 img {
-    width: 37vw;
-    padding-left: 50px;
+    width: 59vw;
     height: 55vh;
     margin-top: 25px;
+    margin: auto; /* Center the image horizontally */
 }
 
 div {
