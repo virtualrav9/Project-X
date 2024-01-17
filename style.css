@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(51, 0, 99)
+}
+
+::selection {
+    color: aqua;
+    background-color: black;
+}
+
+a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(83, 0, 160);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+
+}
+
+ol {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+    margin-left: 50px;
+}
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(134, 10, 250);
+    margin-top: 30px;
+    height: 400px;
+}
+
+img {
+    width: 37vw;
+    padding-left: 50px;
+    height: 55vh;
+    margin-top: 25px;
+}
+
+div {
+    padding: 60px;
+
+}
+
+.about {
+    font-size: 32px;
+    padding: 20px;
+    border: 2px solid #ffffff42;
+    border-radius: 10px;
+    background-color: rgb(148, 46, 243);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.icon {
+    position: fixed;
+    top: 520px;
+    /* Adjust as needed */
+    left: 1190px;
+    /* Adjust as needed */
+    width: 100px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    /* border: 2px solid #333;  */
+    /*Optional styling  */
+    border-radius: 100%;
+    /* Optional styling */
+
+}
